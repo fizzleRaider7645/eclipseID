@@ -1,3 +1,5 @@
+# EclipseID
+
 Leveraging a decentralized identity for logging into an application involves several steps that ensure security, privacy, and convenience. This process bridges the gap between the decentralized identity management system (like EclipseID) and applications, allowing users to seamlessly authenticate without traditional usernames and passwords. Here's a high-level flow of how it works:
 
 ### 1. User Creates a Decentralized Identity
