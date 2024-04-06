@@ -15,7 +15,10 @@ contract IdentityManagement {
      *                     In practice, this hash should be generated securely off-chain.
      */
     function createIdentity(bytes32 identityHash) public {
-        require(userIdentities[msg.sender] == 0, "Identity already exists.");
+        require(
+            userIdentities[msg.sender] == bytes32(0),
+            "Identity already exists."
+        );
 
         // Store the identity hash associated with the sender's address.
         userIdentities[msg.sender] = identityHash;
